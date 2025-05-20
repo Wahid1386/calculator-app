@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding :0;
+}
+.maincontainer{
+  background-color: #109DFF;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.calculator{
+  height: 85%;
+  /* width: 20%; */
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 25px;
+}
+
+.calculator.dark{
+  background-color: white;
+}
+
+.calculator.light{
+    background-color: white;
+}
+
+.textshow{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 5px;
+}
+.textshow input{
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  color: rgb(241, 239, 239);
+  font-size: x-large;
+  text-align: right;
+  width: 90%;
+  border-radius: 10px;
+}
+.btnContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.numbers{
+  display: flex;
+  justify-content: space-around;
+}
+.scientific{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.scientific input{
+  height: 30px;
+  width: 40px;
+  border-radius: 39px;
+  color: #1991FF;
+  background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+  cursor: pointer;
+}
+.num1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.num1 input{
+  padding: 15px;
+  font-size: large;
+  border-radius: 10px;
+  color: #1991FF;
+  background: linear-gradient(191.34deg, #303131 -4.95%, #17181A 103.74%);
+  cursor: pointer;
+
+}
+.num2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.num2 input{
+  padding: 15px;
+  width: 55px;
+  font-size: large;
+  border-radius: 10px;
+  color: #1991FF;
+  background: linear-gradient(191.34deg, #303131 -4.95%, #17181A 103.74%);
+  cursor: pointer;
+}
+.num3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.num3 input{
+  padding: 15px;
+  width: 55px;
+  font-size: large;
+  border-radius: 10px;
+  color: #1991FF;
+  background: linear-gradient(191.34deg, #303131 -4.95%, #17181A 103.74%);
+  cursor: pointer;
+
+}
+.oprators{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.oprators input{
+  padding: 15px;
+  font-size: large;
+  border-radius: 10px;
+  background: #1991FF;
+  border: 1px solid #1991FF;
+  color: skyblue;
+  cursor: pointer;
+}
+.sumbtn{
+  height: 100px;
+}
+.equalbtn{
+  height: 100px;
+} 
+.maincontainer button{
+  font-size: larger;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: #17181A;
+}
+
+
+
